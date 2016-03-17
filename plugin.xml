@@ -19,6 +19,10 @@
 				</intent-filter>
 			</receiver>
 		</config-file>
+
+		<source-file
+			src="src/android/ReferrerReceiver.java"
+			target-dir="src/com/likemindnetworks/referral" />
 	</platform>
 
 </plugin>
