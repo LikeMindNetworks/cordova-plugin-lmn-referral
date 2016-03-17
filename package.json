@@ -1,0 +1,21 @@
+{
+  "name": "cordova-plugin-lmn-referral",
+  "version": "1.0.0",
+  "description": "",
+  "main": "plugin.xml",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LikeMindNetworks/cordova-plugin-lmn-referral.git"
+  },
+  "keywords": [
+    "referral",
+    "lmn"
+  ],
+  "author": "LikeMindNetworks Inc.",
+  "bugs": {
+    "url": "https://github.com/LikeMindNetworks/cordova-plugin-lmn-referral/issues"
+  }
+}

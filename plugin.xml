@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin
+		xmlns="http://apache.org/cordova/ns/plugins/1.0"
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		id="cordova-plugin-lmn-referral"
+		version="1.0.0">
+	<name>LMN Crypto</name>
+	<description>Cordova LikeMindNetworks Referral Plugin</description>
+	<license>Apache 2.0</license>
+
+	<platform name="android">
+		<config-file target="AndroidManifest.xml" parent="application">
+			<receiver
+					android:exported="true"
+					android:name="com.likemindnetworks.referral.ReferrerReceiver">
+				<intent-filter>
+					<action android:name="com.android.vending.INSTALL_REFERRER" />
+				</intent-filter>
+			</receiver>
+		</config-file>
+	</platform>
+
+</plugin>
